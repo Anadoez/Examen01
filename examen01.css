@@ -59,3 +59,8 @@ footer{
 .centro{
     text-align: center;
 }
+#porfolio div{
+    width:25%;
+    margin:4%;
+    float:left;
+}
