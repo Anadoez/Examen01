@@ -1,18 +1,16 @@
 /* ******Estilo home*** */
 nav{
-    border-bottom: 2px solid blue;
+    border-bottom: 3px solid blue;
     text-align: center;
-    margin:auto;
 }
 ul{
-    margin:0%;
+    margin-left: 15%;
     padding:0%;
-    overflow:hidden;
+    overflow: hidden;
     list-style-type: none;
 }
 li{
-    text-align: center;
-    width:10%;
+    width:15%;
     float:left;
     background-color: lightblue;
     margin:0.5%;
@@ -20,7 +18,6 @@ li{
     
 }
 li a{
-    
     text-decoration: none;
 }
 p{
@@ -44,8 +41,12 @@ footer{
 }
 /* *************Estilo localizacion** */
 .mapa{
-    width:60%;
+    width:40%;
 }
+.centrado{
+    margin:auto;
+}
+/* ************Estilo porfolio******** */
 .centro{
     text-align: center;
 }
