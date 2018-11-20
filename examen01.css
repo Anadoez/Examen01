@@ -1,9 +1,10 @@
 /* ******Estilo home*** */
 nav{
     border-bottom: 2px solid blue;
+    text-align: center;
+    margin:auto;
 }
 ul{
-    text-align:center;
     margin:0%;
     padding:0%;
     overflow:hidden;
@@ -13,8 +14,38 @@ li{
     text-align: center;
     width:10%;
     float:left;
+    background-color: lightblue;
+    margin:0.5%;
+    border-radius:5%;
+    
 }
 li a{
-    background-color: lightblue;
+    
     text-decoration: none;
+}
+p{
+    color:blue;
+}
+main{
+    width:75%;
+    float:left;
+}
+aside{
+    width:15%;
+    float:right;
+}
+aside img{
+    width:50%;
+}
+footer{
+    clear:both;
+    background-color: lightblue;
+    text-align:center;
+}
+/* *************Estilo localizacion** */
+.mapa{
+    width:60%;
+}
+.centro{
+    text-align: center;
 }
