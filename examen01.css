@@ -19,13 +19,22 @@ li{
 }
 li a{
     text-decoration: none;
+    color:navy;
+}
+li:hover{
+    color:navy;
+    background-color: cornflowerblue;
 }
 p{
     color:blue;
 }
+
 main{
     width:75%;
     float:left;
+}
+.cent{
+    margin-left: 15%;
 }
 aside{
     width:15%;
